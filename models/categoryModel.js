@@ -3,7 +3,7 @@ const axios = require("axios");
 module.exports = {
   async getAll() {
     return axios
-      .get("http://localhost:2020/product/categories")
+      .get("http://localhost:2020/category/all")
       .then((res) => {
         return res;
       })
